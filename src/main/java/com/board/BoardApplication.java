@@ -2,12 +2,13 @@ package com.board;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.ConfigurationPropertiesScan;
 
+@ConfigurationPropertiesScan
 @SpringBootApplication
-public class SpringPostApplication {
+public class BoardApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringPostApplication.class, args);
+        SpringApplication.run(BoardApplication.class, args);
     }
-
 }
